@@ -7,3 +7,10 @@ yarn add nodemon -D             | tempo real no navegador (alteração no códig
 yarn add mongoose               | conexão com banco de dados MongoDB
 
 yarn add axios                  | chamadas em outras api's
+
+
+MongoDB Atlas  - online
+
+MongoDB Compass (App linux)
+
+
