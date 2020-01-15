@@ -6,6 +6,7 @@ import React from 'react'
 import './global.css'
 import './App.css'
 import './Sidebar.css'
+import './Main.css'
 
 
 
@@ -40,7 +41,55 @@ function App() {
           </form>
         </aside>
         <main>
+          <ul>
+            <li className="dev-item">
+              <header>
+                <img src="https://avatars1.githubusercontent.com/u/21065471?s=460&v=4" alt="Carlos Bruno" />
+                <div className="user-info">
+                  <strong>Carlos Bruno</strong>
+                  <span>ReactJS, React Native, Node.js</span>
+                </div>
+              </header>
+              <p>SysAdmin Linux. Aprendendo JavaScript, Node.JS, React JS e React Native.</p>
+              <a href="https://github.com/suricarlos">Acessar perfil no Github</a>
+            </li>
 
+            <li className="dev-item">
+              <header>
+                <img src="https://avatars1.githubusercontent.com/u/21065471?s=460&v=4" alt="Carlos Bruno" />
+                <div className="user-info">
+                  <strong>Carlos Bruno</strong>
+                  <span>ReactJS, React Native, Node.js</span>
+                </div>
+              </header>
+              <p>SysAdmin Linux. Aprendendo JavaScript, Node.JS, React JS e React Native.</p>
+              <a href="https://github.com/suricarlos">Acessar perfil no Github</a>
+            </li>
+
+            <li className="dev-item">
+              <header>
+                <img src="https://avatars1.githubusercontent.com/u/21065471?s=460&v=4" alt="Carlos Bruno" />
+                <div className="user-info">
+                  <strong>Carlos Bruno</strong>
+                  <span>ReactJS, React Native, Node.js</span>
+                </div>
+              </header>
+              <p>SysAdmin Linux. Aprendendo JavaScript, Node.JS, React JS e React Native.</p>
+              <a href="https://github.com/suricarlos">Acessar perfil no Github</a>
+            </li>
+
+            <li className="dev-item">
+              <header>
+                <img src="https://avatars1.githubusercontent.com/u/21065471?s=460&v=4" alt="Carlos Bruno" />
+                <div className="user-info">
+                  <strong>Carlos Bruno</strong>
+                  <span>ReactJS, React Native, Node.js</span>
+                </div>
+              </header>
+              <p>SysAdmin Linux. Aprendendo JavaScript, Node.JS, React JS e React Native.</p>
+              <a href="https://github.com/suricarlos">Acessar perfil no Github</a>
+            </li>
+          </ul>
         </main>
       </div>
     )

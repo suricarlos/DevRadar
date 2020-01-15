@@ -7,3 +7,23 @@
   flex-direction: row; /* tudo que estiver dentro da div app, vai ficar um no lado do outro */
   align-items: flex-start;  /* para sempre alinhar ao topo */
 }
+
+#app main {
+  margin-left: 30px;  /* distaciar do lado esquerdo do "main", referente ao "asidebar" */
+}
+
+/* quando a largura for menor que 1000px, faça esse procedimento para adaptação  */
+@media (max-width: 1000px) {   
+  #app {
+    flex-direction: column;
+  }
+
+  #app main {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  #app aside {
+    width: 100%;
+  }
+}
