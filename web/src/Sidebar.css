@@ -1,0 +1,73 @@
+aside {
+  width: 320px; /* largura fixa de 320*/
+  background: #FFF;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  padding: 30px 20px;
+}
+
+aside strong {
+  font-size: 20px;
+  text-align: center;
+  display: block; /* porque por padrão deixa em display line */
+  color: #333;
+}
+
+aside form {
+  margin-top: 30px;
+}
+/* encontre todos os .input-block que tenha um input-block antes dele, 
+   vai pegar o segundo porque não tem antes dele */
+aside form .input-block + .input-block { 
+  margin-top: 20px; 
+}
+
+/* quando estivermos dentro de input-group, todos os nossos input-block não 
+  precisam de margin-top  */
+aside form .input-group .input-block {  
+  margin-top: 0;
+}
+
+aside form .input-group {
+  margin-top: 20px;
+  display: grid;  /* um do lado do outro */
+  gap: 20px; /* espaceamento entre os dois input */
+  grid-template-columns: 1fr 1fr; /* cada input ocupa 50% */
+
+}
+
+aside form .input-block label {
+  color: #ACACAC;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
+
+aside form .input-block input {
+  width: 100%;
+  height: 32px;
+  font-size: 14px;
+  color: #666;
+  border: 0;   /* com 0 tira a linha da borda (sem borda) */
+  border-bottom: 1px solid #eee;
+}
+
+/* somente no button do submit */
+aside form button[type=submit]{
+  width: 100%;
+  border: 0;
+  margin-top: 30px;
+  background: #7d40e7;
+  border-radius: 2px;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+/* efeito do cursor mouse */
+aside form button[type=submit]:hover {
+  background: #6931ca;
+}

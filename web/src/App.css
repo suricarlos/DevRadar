@@ -1,38 +1,9 @@
-.App {
-  text-align: center;
-}
+#app {
+  max-width: 1200px; /* porque se a tela do usuário for grande vai ficar centralizado */
+  margin: 0 auto; /* por isso o mergin 0 */
+  padding: 60px 30px;  /* 60px (em cima e em baixo) e 30px (na direita e na esquerda)  */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-direction: row; /* tudo que estiver dentro da div app, vai ficar um no lado do outro */
+  align-items: flex-start;  /* para sempre alinhar ao topo */
 }
