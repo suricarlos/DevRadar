@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 // Componente: Bloco isolado de HTML, CSS e JS, o qual não interfere no restante da aplicação
 // Propriedade: Informações (props) que um componente PAI passa para o componente FILHO
@@ -11,6 +11,26 @@ import './Main.css'
 
 
 function App() {
+  const [latitude, setLatitude] = useState('')
+  const [longitude, setLongitude] = useState('')
+
+  useEffect(() => {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords
+
+        setLatitude(latitude)
+        setLongitude(longitude)
+      },
+      (err) => {
+        console.log(err)
+      },
+      {
+        timeout: 3000,
+      }
+    )
+  }, [])
+
     return (
       <div id="app">
         <aside>
@@ -29,12 +49,12 @@ function App() {
             <div className="input-group">
               <div className="input-block"> 
                 <label htmlFor="latitude">Latitude</label>
-                <input name="latitude" id="latitude" required />
+                <input type="number" name="latitude" id="latitude" required value={latitude} onChange={e => setLatitude(e.target.value)} />
               </div>
 
               <div className="input-block"> 
                 <label htmlFor="longitude">Longitude</label>
-                <input name="longitude" id="longitude" required />
+                <input typer="number" name="longitude" id="longitude" required value={longitude} onChange={e => setLongitude(e.target.value)} />
               </div>
             </div>
             <button type="submit">Salvar</button>
