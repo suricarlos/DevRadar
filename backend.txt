@@ -3,3 +3,7 @@ yarn init -y                    | package.json
 yarn add express                | rota no navegador
 
 yarn add nodemon -D             | tempo real no navegador (alteração no código)
+
+yarn add mongoose               | conexão com banco de dados MongoDB
+
+yarn add axios                  | chamadas em outras api's
