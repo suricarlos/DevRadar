@@ -12,7 +12,7 @@ function Main() {
     
       if (granted) {
         const { coords } = await getCurrentPositionAsync({
-          enableHighAccuracy: true,
+          enableHighAccuracy: true,    // se o GPS estive desligado (false)
         })
 
         const { latitude, longitude } = coords

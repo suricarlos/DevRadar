@@ -14,7 +14,7 @@ expo install react-native-gesture-handler react-native-reanimated react-native-s
 
 FONTE: https://reactnavigation.org/docs/en/hello-react-navigation.html
 
-yarn add react-navigation-stack	@react-native-community/masked-view		| navegação por pilha... ou seja, pela lateral
+yarn add react-navigation-stack	@react-native-community/masked-view (expo install @react-native-community/masked-view@0.1.5)		| navegação por pilha... ou seja, pela lateral
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 expo install react-native-maps
