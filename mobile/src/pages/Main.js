@@ -16,7 +16,7 @@ function Main() {
         })
 
         const { latitude, longitude } = coords
-
+        
         setCurrentRegion({
           latitude,
           longitude,
@@ -33,7 +33,9 @@ function Main() {
     return null
   }
   
-  return <MapView  InitialRegion={currentRegion} style={styles.map} />
+  console.log(currentRegion)
+
+  return <MapView  initialRegion={currentRegion} style={styles.map} />
 }
 
 const styles = StyleSheet.create({
