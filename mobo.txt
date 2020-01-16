@@ -1,0 +1,24 @@
+yarn global add expo-cli
+
+vi .bashrc   >>>>   export PATH="$(yarn global bin):$PATH"
+
+expo init nome_projeto
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FONTE: https://reactnavigation.org/docs/en/getting-started.html
+
+yarn add react-navigation
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context  		|  instala com expo devido o inicio do projeto com o mesmo
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FONTE: https://reactnavigation.org/docs/en/hello-react-navigation.html
+
+yarn add react-navigation-stack	@react-native-community/masked-view		| navegação por pilha... ou seja, pela lateral
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+expo install react-native-maps
+
+
+
+
