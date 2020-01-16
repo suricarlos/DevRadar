@@ -32,8 +32,6 @@ function Main() {
   if(!currentRegion) {
     return null
   }
-  
-  console.log(currentRegion)
 
   return <MapView  initialRegion={currentRegion} style={styles.map} />
 }
