@@ -13,4 +13,4 @@ MongoDB Atlas  - online
 
 MongoDB Compass (App linux)
 
-
+yarn add cors                   | libera o acesso externo para qualquer tipo de aplicação.

@@ -1,1 +1,3 @@
 yarn create react-app web
+
+yarn add axios          | chamada API Rest
