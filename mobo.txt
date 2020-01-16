@@ -19,6 +19,4 @@ yarn add react-navigation-stack	@react-native-community/masked-view		| navega√ß√
 
 expo install react-native-maps
 
-
-
-
+expo install expo-location
