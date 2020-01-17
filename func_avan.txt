@@ -1,0 +1,26 @@
+Funcionalidade avançada
+
+Explicação básica:
+
+Requisições HTTP
+
+GET, POST, PUT, DELETE
+
+Frontend REQUISIÇÃO -> Backend -> RESPOSTA Frontend
+
+ 
+Protocolo WebSocket
+
+RESPOSTA do Backend sem REQUISIÇÃO do Frontend
+
+
+
+# backend
+
+yarn add socket.io
+
+# frontend
+
+yarn add socket.io-client
+
+
