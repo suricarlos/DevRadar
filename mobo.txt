@@ -20,3 +20,9 @@ yarn add react-navigation-stack	@react-native-community/masked-view (expo instal
 expo install react-native-maps
 
 expo install expo-location
+
+expo install react-native-webview
+
+yarn add axios
+
+
